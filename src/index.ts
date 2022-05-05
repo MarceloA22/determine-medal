@@ -1,5 +1,5 @@
 let btnEnviar = document.getElementById("enviar");
-
+rotulo.innerHTML = "Ingrese la posición de llegada del competidor:";
 btnEnviar.addEventListener("click", () => {
   let posicionLlegada: number = dato1.value * 1;
   if (posicionLlegada === 1) {
