@@ -1,7 +1,7 @@
 let btnEnviar = document.getElementById("enviar");
 rotulo.innerHTML = "Ingrese la posición de llegada del competidor:";
 btnEnviar.addEventListener("click", () => {
-  let posicionLlegada: number = dato1.value * 1;
+  let posicionLlegada: number = Number(dato1.value);
   if (posicionLlegada === 1) {
     console.log("entregar medalla de oro");
   } else {
